@@ -22,4 +22,5 @@ The files are intended to test the `math` module.
 To run the files, run `node lessons/<lesson-filename>.js`.
 
 > For the `global` one, run `node -r ./setup-globals.js ./lessons/globals.js`
+>
 > For the `jest.test.js` one, run `npx jest`.
