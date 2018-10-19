@@ -1,4 +1,4 @@
-const {sum, subtract} = require('../math')
+const {sum, subtract} = require('./math')
 
 let result, expected
 

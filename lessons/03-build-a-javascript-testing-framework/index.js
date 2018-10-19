@@ -1,4 +1,4 @@
-const {sum, subtract} = require('../math')
+const {sum, subtract} = require('./math')
 
 test('sum adds numbers', () => {
   const result = sum(3, 7)
