@@ -9,6 +9,6 @@
   "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com/)",
   "license": "MIT",
   "devDependencies": {
-    "jest": "^23.1.0"
+    "jest": "^24.9.0"
   }
 }
