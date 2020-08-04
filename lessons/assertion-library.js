@@ -11,7 +11,7 @@
  *     here is going to be `toBe`, and that's going to take an expected
  *     value.
  *               **BONUS**
- *  Can you add more assertions like `twoEqual`, `toBeGreaterThan`, and
+ *  Can you add more assertions like `toEqual`, `toBeGreaterThan`, and
  *  `toBeLessThan`?
  *
  * Execute: Use `node lessons/assertion-library.js` to run the test.
