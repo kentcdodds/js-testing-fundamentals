@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "nkabbara",
+      "name": "Nash Kabbara",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/31865?v=4",
+      "profile": "http://nashkabbara.com",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "js-testing-fundamentals",
+  "projectOwner": "kentcdodds",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
