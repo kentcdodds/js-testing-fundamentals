@@ -1,11 +1,3 @@
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-<div align="center">
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-
-</div>
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
-
 <h1 align="center">
   JavaScript Testing Fundamentals
 </h1>
@@ -20,6 +12,14 @@
     />
   </a>
 </div>
+
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+<div align="center">
+
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+
+</div>
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <hr />
 
