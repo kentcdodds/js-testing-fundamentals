@@ -30,5 +30,5 @@ test('subtractAsync subtracts numbers asynchronously', () => {
 })
 
 /**
- * Answer: Checkout the master branch for the answer.
+ * Answer: Checkout the main branch for the answer.
  */

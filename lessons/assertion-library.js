@@ -29,5 +29,5 @@ expected = 4
 expect(result).toBe(expected)
 
 /**
- * Answer: Checkout the master branch for the answer.
+ * Answer: Checkout the main branch for the answer.
  */
