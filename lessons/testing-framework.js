@@ -31,5 +31,5 @@ test('subtract subtracts numbers', () => {
 })
 
 /**
- * Answer: Checkout the master branch for the answer.
+ * Answer: Checkout the main branch for the answer.
  */

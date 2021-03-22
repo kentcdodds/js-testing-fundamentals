@@ -18,5 +18,5 @@ let result, expected
 /**
  * Hint: there's no magic, just the most straightforward conditional statement.
  *
- * Answer: Checkout the master branch for the answer.
+ * Answer: Checkout the main branch for the answer.
  */

@@ -32,5 +32,5 @@ test('subtractAsync subtracts numbers asynchronously', async () => {
 /**
  * Hint: https://nodejs.org/api/globals.html#globals_global
  *
- * Answer: Checkout the master branch for the answer.
+ * Answer: Checkout the main branch for the answer.
  */
