@@ -1,0 +1,110 @@
+// Colors
+$light_cyan: hsl(193, 38%, 86%);
+$neo_green: hsl(150, 100%, 66%);
+$grayish_blue: hsl(217, 19%, 38%);
+$dark_grayish_blue: hsl(217, 19%, 24%);
+$dark_blue: hsl(218, 23%, 16%);
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&display=swap');
+$primary_font: 'Manrope', sans-serif;
+
+// Sizes
+
+$size_1  : 0.25rem;  // 4px	 
+$size_2 : 0.5rem;   // 8px	
+$size_3 : 0.75rem;  // 12px	
+$size_4 : 1rem;     // 16px	
+$size_5 : 1.25rem;  // 20px	
+$size_6 : 1.5rem;   // 24px	
+$size_7 : 2rem;     // 32px	
+$size_8 : 2.5rem;   // 40px	
+$size_9 : 3rem;     // 48px	
+$size_10 : 4rem;    // 64px
+
+$card_padding : clamp(40px, calc(2.5rem + ((1vw - 3.75px) * 3.1515)), 45px) clamp(24px, calc(1.5rem + ((1vw - 3.75px) * 3.1515)), 50px);
+$card_button_padding : $size_5;
+
+// Global
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn{
+  border: 0;
+  background: transparent;
+  cursor:  pointer;
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+  font-family: $primary_font;
+  background-color: $dark_blue;
+  color: $light_cyan;
+}
+
+#app{
+  width: inherit;
+  height: inherit;
+  display: grid;
+  place-items: center;
+}
+
+.card{
+  width: min(95vw, 536px);
+  background-color: $dark_grayish_blue ;
+  border-radius: $size_3;
+  text-align: center;
+  padding: $card_padding;
+  position: relative;
+
+  -webkit-box-shadow: 13px 14px 35px -7px rgba(0,0,0,0.56);
+  -moz-box-shadow: 13px 14px 35px -7px rgba(0,0,0,0.56);
+  box-shadow: 13px 14px 35px -7px rgba(0,0,0,0.56);
+}
+
+
+.card-quote-number{
+  font-size : $size_3;
+  letter-spacing: $size_1 ;
+  font-style: italic;
+  color: $neo_green;
+  margin-bottom: $size_6;
+}
+
+.card-quote{
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.card-separator{
+  margin: $size_6 0;
+
+}
+
+.card-button{
+  position: absolute;
+  bottom: 0;
+  transform: translate(-50%, 50%);
+  left: 50%;
+  border-radius: 50%;
+  padding: $card_button_padding;
+  background-color: $neo_green;
+  transition: box-shadow .3s ease;
+
+  &:hover{
+    -webkit-box-shadow: 0px 0px 31px 1px $light_cyan ;
+    -moz-box-shadow: 0px 0px 31px 1px $light_cyan  ;
+    box-shadow: 0px 0px 31px 1px $light_cyan ;
+  }
+}
+
