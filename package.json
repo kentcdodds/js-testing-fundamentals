@@ -1,14 +1,21 @@
 {
-  "name": "js-testing-fundamentals",
+  "name": "ao-advice-generator-frontendmentor",
   "version": "1.0.0",
-  "description": "A repo for my JavaScript Testing Fundamentals course",
+  "description": "",
+  "main": "index.html",
   "scripts": {
-    "test": "jest"
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
   },
-  "keywords": [],
-  "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com/)",
-  "license": "MIT",
+  "dependencies": {
+    "scss": "0.2.4"
+  },
   "devDependencies": {
-    "jest": "^23.1.0"
-  }
+    "parcel-bundler": "^1.6.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arnaudouttier/advice-generator-frontendmentor.git"
+  },
+  "keywords": []
 }
